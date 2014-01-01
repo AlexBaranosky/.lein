@@ -21,6 +21,7 @@
         :dependencies [[ritz/ritz-nrepl-middleware "0.7.0"]
                        [org.clojure/tools.namespace "0.2.4"]
                        [org.clojure/tools.trace "0.7.6"]
+                       [criterium "0.4.1"]
                        [org.clojars.gjahad/debug-repl "0.3.3"]
                        [org.clojure/core.typed "0.2.13"]
                        [night-vision "0.1.0-SNAPSHOT"]
