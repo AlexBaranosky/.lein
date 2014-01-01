@@ -25,6 +25,7 @@
                        [org.clojure/core.typed "0.2.13"]
                        [night-vision "0.1.0-SNAPSHOT"]
                        [slamhound "1.5.0"]
+                       [print-foo "0.4.7"]
                        [alembic "0.2.0"]
                        [riddley "0.1.0"]
                        [troncle "0.1.2-SNAPSHOT"]
