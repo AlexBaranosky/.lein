@@ -17,7 +17,7 @@
                   [lein-cloverage "1.0.2"]
                   [com.jakemccrary/lein-test-refresh "0.1.2"]]
         :repl-options {:nrepl-middleware [troncle.discover/wrap-discover]}
-        :aliases {"slamhound" ["run" "-m" "slam.hound/main"]}
+        :aliases {"slamhound" ["run" "-m" "slam.hound"]}
         :dependencies [[ritz/ritz-nrepl-middleware "0.7.0"]
                        [org.clojure/tools.namespace "0.2.4"]
                        [org.clojure/tools.trace "0.7.6"]
