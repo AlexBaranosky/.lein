@@ -16,20 +16,18 @@
                   [org.timmc/nephila "0.2.0"]
                   [lein-cloverage "1.0.2"]
                   [com.jakemccrary/lein-test-refresh "0.1.2"]]
-        :repl-options {:nrepl-middleware [troncle.discover/wrap-discover]}
         :aliases {"slamhound" ["run" "-m" "slam.hound"]}
         :dependencies [[ritz/ritz-nrepl-middleware "0.7.0"]
                        [org.clojure/tools.namespace "0.2.4"]
                        [org.clojure/tools.trace "0.7.6"]
                        [criterium "0.4.1"]
                        [org.clojars.gjahad/debug-repl "0.3.3"]
-                       [org.clojure/core.typed "0.2.13"]
+                        [org.clojure/core.typed "0.2.13"]
                        [night-vision "0.1.0-SNAPSHOT"]
                        [slamhound "1.5.0"]
                        [print-foo "0.4.7"]
                        [alembic "0.2.0"]
                        [riddley "0.1.0"]
-                       [troncle "0.1.2-SNAPSHOT"]
                        [wally "0.1.1"]
                        [com.cemerick/pomegranate "0.2.0"]
                        [com.aphyr/prism "0.1.1"]]}}
